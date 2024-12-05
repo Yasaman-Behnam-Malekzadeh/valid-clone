@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-myDarkGreen mb-20">
+  <div class="bg-myDarkGreen mx-10" id="approach">
     <!-- toDo: approach divid to some components -->
     <h2 class="text-myMediumGreen text-4xl -ml-12 mb-24">Our approach</h2>
     <div class="mb-28">

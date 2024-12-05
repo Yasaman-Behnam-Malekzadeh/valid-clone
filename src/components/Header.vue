@@ -6,8 +6,8 @@
     <div class="flex flex-row items-center">
       <div class="flex flex-row mr-28 text-lg">
         <a href="#context" class="text-white mr-8">Context</a>
-        <a href="#" class="text-white mr-8">Our approach</a>
-        <a href="#" class="text-white mr-8">Our mission</a>
+        <a href="#approach" class="text-white mr-8">Our approach</a>
+        <a href="#mission" class="text-white mr-8">Our mission</a>
         <LanguageSwitcher />
       </div>
       <a href="mailto:info@valid.tech" class="px-12 py-3 rounded-full bg-myMediumGreen">Contact</a>

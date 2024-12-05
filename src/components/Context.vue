@@ -54,7 +54,7 @@ export default {
           text: `The <span class="text-myMediumGreen">EU AI Act</span> requires transparency in the procurement and use of data.`,
         },
       ],
-      contextVisible: false, // Tracks visibility for the animation
+      contextVisible: false,
     };
   },
   components: {
@@ -64,10 +64,7 @@ export default {
     scrollToContext() {
       const contextElement = document.getElementById("context");
       if (contextElement) {
-        // Set contextVisible to true for the transition
         this.contextVisible = true;
-
-        // Smooth scroll to the element
         contextElement.scrollIntoView({
           behavior: "smooth",
         });
