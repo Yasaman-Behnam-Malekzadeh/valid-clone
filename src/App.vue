@@ -5,7 +5,7 @@
       <div class="container mx-auto">
         <Context />
         <Approach />
-      <!-- <Mission /> -->
+      <Mission />
       </div>
     </div>
   </div>
@@ -15,7 +15,7 @@
 import Header from "./components/Header.vue";
 import Context from "./components/Context.vue";
 import Approach from "./components/Approach.vue";
-// import Mission from "./components/Mission.vue";
+import Mission from "./components/Mission.vue";
 
 export default {
   name: "App",
@@ -23,7 +23,7 @@ export default {
     Header,
     Context,
     Approach,
-    // Mission,
+    Mission,
   },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-myDarkGreen">
+  <div class="bg-myDarkGreen mb-10">
     <!-- toDo: approach divid to some components -->
     <h2 class="text-myMediumGreen text-4xl -ml-12 mb-24">Our approach</h2>
     <div class="mb-28">
@@ -72,7 +72,7 @@
         content
       </p>
       <div>
-        <div v-for="item in validateTabels" :key="item.id" class="flex justify-between border-b-2 border-myMediumGreen text-2xl py-10">
+        <div v-for="item in validateTabels" :key="item.id" class="flex justify-between border-b-2 border-myMediumGreen text-2xl py-10 last:border-none">
           <span class="text-myMediumGreen">{{ item.title }}</span>
           <span class="text-myLightGreen w-1/2">{{ item.text }}</span>
         </div>
