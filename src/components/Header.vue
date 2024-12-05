@@ -5,12 +5,12 @@
     <img :src="logoUrl" alt="valid-logo" class="w-52" />
     <div class="flex flex-row items-center">
       <div class="flex flex-row mr-28 text-lg">
-        <a href="#" class="text-white mr-8">Context</a>
+        <a href="#context" class="text-white mr-8">Context</a>
         <a href="#" class="text-white mr-8">Our approach</a>
         <a href="#" class="text-white mr-8">Our mission</a>
         <LanguageSwitcher />
       </div>
-      <button class="px-12 py-3 rounded-full bg-myMediumGreen">Contact</button>
+      <a href="mailto:info@valid.tech" class="px-12 py-3 rounded-full bg-myMediumGreen">Contact</a>
     </div>
   </div>
 </template>

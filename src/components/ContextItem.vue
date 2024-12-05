@@ -3,7 +3,7 @@
     <img :src="data.imgUrl" :alt="data.imgAlt" class="w-full h-72 mb-4" />
     <div
       v-html="data.text"
-      class="text-2xl leading-9 text-myLightGreen min-h-32"
+      class="text-2xl leading-9 text-myLightGreen min-h-36"
     ></div>
   </div>
 </template>

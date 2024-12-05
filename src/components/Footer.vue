@@ -31,7 +31,7 @@ export default {
         {
           id: 3,
           name: "Contact",
-          url: "#",
+          url: "mailto:info@valid.tech",
         },
       ],
     };
