@@ -4,8 +4,8 @@
     <div class="bg-myDarkGreen">
       <div class="container mx-auto">
         <Context />
-        <!-- <Approach />
-      <Mission /> -->
+        <Approach />
+      <!-- <Mission /> -->
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
 <script>
 import Header from "./components/Header.vue";
 import Context from "./components/Context.vue";
-// import Approach from "./components/Approach.vue";
+import Approach from "./components/Approach.vue";
 // import Mission from "./components/Mission.vue";
 
 export default {
@@ -22,7 +22,7 @@ export default {
   components: {
     Header,
     Context,
-    // Approach,
+    Approach,
     // Mission,
   },
 };
