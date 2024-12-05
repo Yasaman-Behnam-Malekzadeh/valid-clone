@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div>
+    <div class="mb-20">
       <h2 class="text-myMediumGreen text-4xl mb-10 -ml-12">Our mission</h2>
       <div class="flex">
         <div class="flex item-center flex-col">
@@ -14,7 +13,6 @@
         <img :src="imgUrl" alt="mission" class="w-5/6"/>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

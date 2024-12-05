@@ -1222,6 +1222,10 @@ video {
   align-items: stretch;
 }
 
+.justify-normal {
+  justify-content: normal;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
