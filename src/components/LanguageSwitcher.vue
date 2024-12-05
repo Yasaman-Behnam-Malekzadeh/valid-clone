@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <select v-model="currentLocale" @change="changeLanguage">
-      <option value="en">En</option>
-      <option value="fr">De</option>
-    </select>
+  <div class="flex items-center">
+    <button @click="toggleLanguage" class="flex items-center">
+      <img
+        :src="currentLocale === 'en' ? englishUrl : deutschUrl"
+        alt="translate log"
+        class="w-10 h-10"
+      />
+    </button>
   </div>
 </template>
 
@@ -12,11 +15,13 @@ export default {
   data() {
     return {
       currentLocale: "en",
-      translateUrl: require("@/images/header/translate-logo.svg"),
+      deutschUrl: require("@/images/header/de.svg"),
+      englishUrl: require("@/images/header/en.svg"),
     };
   },
   methods: {
-    changeLanguage() {
+    toggleLanguage() {
+      this.currentLocale = this.currentLocale === "en" ? "de" : "en";
       this.$i18n.locale = this.currentLocale;
     },
   },
